@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Logo */
+.container img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tabs a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.tabs a.active {
+    color: #d00;
+    border-bottom: 2px solid #d00;
+    font-weight: bold;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    display: block;
+    background: #fff;
+    color: #333;
+}
+
+/* Botões */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    background: #d00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn-primary:hover {
+    background: #b00;
+}
+
+.btn-social {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-apple {
+    background: #000;
+    color: #fff;
+}
+
+.btn-google {
+    background: #4285F4;
+    color: #fff;
+}
+
+/* Outros */
+.forgot {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.forgot a {
+    font-size: 12px;
+    color: #4285F4;
+    text-decoration: none;
+}
+
+.separator {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer {
+    margin-top: 15px;
+    font-size: 13px;
+}
+.footer a {
+    color: #4285F4;
+    text-decoration: none;
+}
